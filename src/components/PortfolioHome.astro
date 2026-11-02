@@ -3,7 +3,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 import ProjectList from "./ProjectList.astro";
 import TopLine from "./TopLine.astro";
 import * as stylex from "@stylexjs/stylex";
-import { basePath } from "../lib/paths";
+import { basePath, showCv } from "../lib/paths";
 import { portfolioStyles } from "../styles/portfolioStyles";
 import StructuredData from "./StructuredData.astro";
 import { gitDates, person, personId, profileLinks, siteUrl, website, websiteId } from "../lib/site";
@@ -54,7 +54,7 @@ const structuredData = [
         <p {...stylex.attrs(portfolioStyles.introLine)}>I graduated in AI Engineering at Howest, with distinction.</p>
         <div {...stylex.attrs(portfolioStyles.buttonRow)}>
           <button {...stylex.attrs(portfolioStyles.button)} type="button" data-copy-email>Copy email</button>
-          <a {...stylex.attrs(portfolioStyles.button)} href={`${base}cv.html`}>Read my CV</a>
+          {showCv && <a {...stylex.attrs(portfolioStyles.button)} href={`${base}cv.html`}>Read my CV</a>}
         </div>
       </section>
 
@@ -84,7 +84,7 @@ const structuredData = [
         <div {...stylex.attrs(portfolioStyles.buttonRow)}>
           <button {...stylex.attrs(portfolioStyles.button)} type="button" data-copy-email>Copy email</button>
           <a {...stylex.attrs(portfolioStyles.button)} href={profileLinks.linkedIn}>LinkedIn</a>
-          <a {...stylex.attrs(portfolioStyles.button)} href={`${base}CV_Warre_Snaet_ATS.pdf`}>ATS CV (PDF)</a>
+          {showCv && <a {...stylex.attrs(portfolioStyles.button)} href={`${base}CV_Warre_Snaet_ATS.pdf`}>ATS CV (PDF)</a>}
         </div>
         <p {...stylex.attrs(portfolioStyles.footnote)}>Warre Snaet, {year}</p>
       </footer>

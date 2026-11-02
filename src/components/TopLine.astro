@@ -1,7 +1,7 @@
 ---
 import * as stylex from "@stylexjs/stylex";
 import ThemeControl from "./ThemeControl.astro";
-import { basePath } from "../lib/paths";
+import { basePath, showCv } from "../lib/paths";
 import { profileLinks } from "../lib/site";
 import { portfolioStyles } from "../styles/portfolioStyles";
 
@@ -23,7 +23,7 @@ const crumbs: Crumb[] = home
       { label: "warre snaet" },
       { label: "github", href: profileLinks.gitHub },
       { label: "linkedin", href: profileLinks.linkedIn },
-      { label: "cv", href: `${basePath}cv.html` },
+      ...(showCv ? [{ label: "cv", href: `${basePath}cv.html` }] : []),
     ]
   : [{ label: "warre snaet", href: basePath }, ...trail];
 ---

@@ -1,7 +1,7 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import TopLine from "../components/TopLine.astro";
-import { basePath } from "../lib/paths";
+import { basePath, showCv } from "../lib/paths";
 import { portfolioStyles } from "../styles/portfolioStyles";
 import * as stylex from "@stylexjs/stylex";
 
@@ -22,7 +22,7 @@ const base = basePath;
       <div {...stylex.attrs(portfolioStyles.buttonRow)}>
         <a {...stylex.attrs(portfolioStyles.button)} href={base}>Home page</a>
         <a {...stylex.attrs(portfolioStyles.button)} href={`${base}#work`}>See the work</a>
-        <a {...stylex.attrs(portfolioStyles.button)} href={`${base}cv.html`}>Read my CV</a>
+        {showCv && <a {...stylex.attrs(portfolioStyles.button)} href={`${base}cv.html`}>Read my CV</a>}
       </div>
     </main>
   </div>
