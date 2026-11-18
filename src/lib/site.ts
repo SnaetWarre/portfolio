@@ -23,9 +23,9 @@ export const person = {
   url: siteUrl,
   jobTitle: "Physical AI Engineer",
   worksFor: { "@type": "Organization", name: "Captic", url: "https://captic.com" },
-  description: "AI engineer from Belgium who joins Captic as a physical AI engineer in November 2026. Works on Python backends, data pipelines, computer vision, and machine learning.",
+  description: "Physical AI engineer at Captic in Belgium. Works on Python backends, data pipelines, computer vision, and machine learning.",
   email: "mailto:warresnaet@icloud.com",
-  address: { "@type": "PostalAddress", addressLocality: "Vilvoorde", addressCountry: "BE" },
+  address: { "@type": "PostalAddress", addressLocality: "Mechelen", addressCountry: "BE" },
   alumniOf: { "@type": "CollegeOrUniversity", name: "Howest University of Applied Sciences" },
   knowsAbout: [
     "Python", "FastAPI", "Machine learning", "Computer vision", "OCR", "MLOps",

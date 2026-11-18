@@ -11,7 +11,7 @@ export interface Project {
 export const experience: Project[] = [
   {
     title: "Robot vision at Captic",
-    context: "physical AI engineer, from November 2026",
+    context: "physical AI engineer, since November 2026",
     href: "https://captic.com",
     description: "Captic is a startup in Ghent that makes AI vision kits for factory robots. The software finds the next bag or box on a pallet and sends the robot a pick pose, or checks bags for damage. It runs on the machine itself, not in the cloud.",
   },
