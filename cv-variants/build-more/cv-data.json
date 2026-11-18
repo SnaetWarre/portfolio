@@ -15,7 +15,7 @@
   "projects": [
     {
       "title": "AWS Fargate Infrastructure with Vault",
-      "url": "https://snaetwarre.github.io/My-Portofolio/work/aws-fargate-vault.html",
+      "url": "https://snaetwarre.github.io/portfolio/work/aws-fargate-vault.html",
       "description": "Designed reusable Terraform infrastructure with private services, identity-based secret delivery, observability, health checks, autoscaling, and rollback safeguards."
     },
     {

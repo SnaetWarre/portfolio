@@ -8,7 +8,7 @@
 // return value is printed as "eval-result" and does not count as a failure.
 // The checks and the screenshot then run on whatever page is showing.
 //
-// <baseUrl> ends in /My-Portofolio/. Pages are paths under it ("", "work/athas.html").
+// <baseUrl> ends in /portfolio/. Pages are paths under it ("", "work/athas.html").
 // Without --pages it checks every .html file in dist/.
 // Writes <outDir>/<page>__<width>-<scheme>.png and <outDir>/report.json.
 // Exits 1 when any check fails, so it works as a gate.

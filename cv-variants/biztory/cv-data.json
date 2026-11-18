@@ -20,12 +20,12 @@
     },
     {
       "title": "Azure ML Lifecycle",
-      "url": "https://snaetwarre.github.io/My-Portofolio/work/azure-mlops.html",
+      "url": "https://snaetwarre.github.io/portfolio/work/azure-mlops.html",
       "description": "Created reusable cloud pipeline components for data preparation, training and registration, then packaged serving with MLflow, FastAPI, Docker, Kubernetes, and CI/CD."
     },
     {
       "title": "AWS Fargate Infrastructure with Vault",
-      "url": "https://snaetwarre.github.io/My-Portofolio/work/aws-fargate-vault.html",
+      "url": "https://snaetwarre.github.io/portfolio/work/aws-fargate-vault.html",
       "description": "Designed tested Terraform infrastructure for private ECS workloads with IAM-based Vault authentication, observability, autoscaling, health checks, and deployment safeguards."
     }
   ],

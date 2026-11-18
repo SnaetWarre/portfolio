@@ -24,8 +24,8 @@ case "${1:-}" in
     setsid npx astro preview --port "$port" --host 127.0.0.1 >"$STATE/preview.log" 2>&1 &
     echo $! >"$pidfile"; echo "$port" >"$portfile"
     for _ in $(seq 1 60); do
-      if curl -sf "http://127.0.0.1:$port/My-Portofolio/" >/dev/null; then
-        echo "ready: http://127.0.0.1:$port/My-Portofolio/ (pid $(cat "$pidfile"))"; exit 0
+      if curl -sf "http://127.0.0.1:$port/portfolio/" >/dev/null; then
+        echo "ready: http://127.0.0.1:$port/portfolio/ (pid $(cat "$pidfile"))"; exit 0
       fi
       sleep 0.5
     done
@@ -44,7 +44,7 @@ case "${1:-}" in
   status)
     if [[ -f "$pidfile" ]] && kill -0 "$(cat "$pidfile")" 2>/dev/null; then
       port="$(cat "$portfile")"
-      code="$(curl -s -o /dev/null -w '%{http_code}' "http://127.0.0.1:$port/My-Portofolio/")"
+      code="$(curl -s -o /dev/null -w '%{http_code}' "http://127.0.0.1:$port/portfolio/")"
       built="$(stat -c %y "$root/dist/index.html" 2>/dev/null | cut -d. -f1)"
       echo "pid $(cat "$pidfile"), port $port, home returns $code, dist built $built, HEAD $(git -C "$root" rev-parse --short HEAD)"
     else

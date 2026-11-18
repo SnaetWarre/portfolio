@@ -4,7 +4,7 @@ import { readdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 
 const outputDir = path.resolve("dist");
-const publicBase = new URL("https://snaetwarre.github.io/My-Portofolio/");
+const publicBase = new URL("https://snaetwarre.github.io/portfolio/");
 
 async function collectHtml(directory) {
   const entries = await readdir(directory, { withFileTypes: true });

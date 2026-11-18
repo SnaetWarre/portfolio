@@ -4,14 +4,14 @@ This directory lists what a visitor can do on the portfolio and how to prove eac
 
 ## Baseline preconditions
 
-- Start the built site with `.claude/skills/verify-portfolio/scripts/serve.sh start`. It answers at `http://127.0.0.1:4399/My-Portofolio/`.
+- Start the built site with `.claude/skills/verify-portfolio/scripts/serve.sh start`. It answers at `http://127.0.0.1:4399/portfolio/`.
 - `serve.sh status` returns code 200 and a build time after your last edit.
 - Every Chrome that `check.mjs` starts has a fresh profile. Theme choices and clipboard contents do not carry over between runs.
 - Never drive the user's own dev server on port 4321.
 
 ## Driving conventions
 
-- All commands below assume `S=.claude/skills/verify-portfolio/scripts` and `B=http://127.0.0.1:4399/My-Portofolio/`.
+- All commands below assume `S=.claude/skills/verify-portfolio/scripts` and `B=http://127.0.0.1:4399/portfolio/`.
 - Use stable handles: `[data-theme-toggle]`, `[data-copy-email]`, `#copy-notification`, section ids `#work`, `#projects`, `#open-source`, `#writing`, and link `href` endings such as `a[href$="work/athas.html"]`.
 - Click real controls with `--eval`. Do not call internal functions or set `data-theme` by hand.
 - Return the before and after state from the `--eval` expression so it lands in the report.

@@ -1,7 +1,7 @@
 import { execFileSync } from "node:child_process";
 import { basePath } from "./paths";
 
-/** Absolute URL of the portfolio root, e.g. https://snaetwarre.github.io/My-Portofolio/ */
+/** Absolute URL of the portfolio root, e.g. https://snaetwarre.github.io/portfolio/ */
 export const siteUrl = new URL(basePath, import.meta.env.SITE).href;
 
 export const absoluteUrl = (path = "") => new URL(path.replace(/^\/+/, ""), siteUrl).href;

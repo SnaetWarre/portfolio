@@ -11,7 +11,7 @@
 ## How to get to it (user POV)
 
 - Click the entry in the Writing section of the home page (`#writing`).
-- Open `/My-Portofolio/blog/blog.html`.
+- Open `/portfolio/blog/blog.html`.
 
 ## Driving it with check.mjs
 

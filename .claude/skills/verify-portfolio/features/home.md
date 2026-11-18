@@ -11,7 +11,7 @@ The home page follows shadcn.com: one narrow column on the left with a breadcrum
 
 ## How to get to it (user POV)
 
-- Open `/My-Portofolio/`.
+- Open `/portfolio/`.
 - Click `warre snaet` or `Back to the list` on any project page.
 - Click `work` in the top line of any project page (goes to `#work`).
 

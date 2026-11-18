@@ -2,4 +2,4 @@
 # so this file is informational. Submit the sitemap in Google Search Console instead.
 User-agent: *
 Allow: /
-Sitemap: https://snaetwarre.github.io/My-Portofolio/sitemap.xml
+Sitemap: https://snaetwarre.github.io/portfolio/sitemap.xml

@@ -4,7 +4,7 @@
 > 🚧 **This profile is just the code storage.**
 > The real breakdown of my projects, deep-dive case studies, and edge-AI research is on my portfolio.
 
-### 👉 [snaetwarre.github.io/My-Portofolio](https://snaetwarre.github.io/My-Portofolio/)
+### 👉 [snaetwarre.github.io/portfolio](https://snaetwarre.github.io/portfolio/)
 
 ---
 
@@ -16,7 +16,7 @@ I build dependable software around applied AI: Python backends, data pipelines, 
 *   **On the side:** Exploring Rust, Burn, and edge AI through personal projects.
 
 **Don't read the code, read the story:**
-[**Read my technical write-up: "Semi-Supervised Plant Disease Detection in Rust"** →](https://snaetwarre.github.io/My-Portofolio/blog/blog.html)
+[**Read my technical write-up: "Semi-Supervised Plant Disease Detection in Rust"** →](https://snaetwarre.github.io/portfolio/blog/blog.html)
 
 ---
 

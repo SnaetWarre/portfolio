@@ -1,11 +1,11 @@
 ---
 name: verify-portfolio
-description: Build and check Warre Snaet's Astro portfolio (snaetwarre.github.io/My-Portofolio) in headless Chrome. Screenshots every page at desktop and phone widths and flags overlapping text, collapsed or squeezed columns, horizontal scroll, broken images, 404s and JS errors. Use after any change to styles, layouts, components or page copy, when the user says a page looks broken, or before pushing (main deploys straight to GitHub Pages).
+description: Build and check Warre Snaet's Astro portfolio (snaetwarre.github.io/portfolio) in headless Chrome. Screenshots every page at desktop and phone widths and flags overlapping text, collapsed or squeezed columns, horizontal scroll, broken images, 404s and JS errors. Use after any change to styles, layouts, components or page copy, when the user says a page looks broken, or before pushing (main deploys straight to GitHub Pages).
 ---
 
 # Verify the portfolio
 
-The site is static Astro + StyleX. What a visitor touches is the built HTML in `dist/`, served under `/My-Portofolio/`. Verification means: build, serve `dist/` on a private port, load each page in headless Chrome, and read the report and the screenshots.
+The site is static Astro + StyleX. What a visitor touches is the built HTML in `dist/`, served under `/portfolio/`. Verification means: build, serve `dist/` on a private port, load each page in headless Chrome, and read the report and the screenshots.
 
 Two helpers live in `scripts/` (paths below are relative to the repo root):
 
@@ -19,7 +19,7 @@ S=.claude/skills/verify-portfolio/scripts
 $S/serve.sh start          # npm run build, then astro preview on 127.0.0.1:4399
 ```
 
-It is ready when it prints `ready: http://127.0.0.1:4399/My-Portofolio/`. The build log is `/tmp/verify-portfolio/build.log` and the server log is `/tmp/verify-portfolio/preview.log`. After you change source files, run `stop` then `start` again: preview serves the old `dist/` until you rebuild.
+It is ready when it prints `ready: http://127.0.0.1:4399/portfolio/`. The build log is `/tmp/verify-portfolio/build.log` and the server log is `/tmp/verify-portfolio/preview.log`. After you change source files, run `stop` then `start` again: preview serves the old `dist/` until you rebuild.
 
 Everything is headless. Nothing opens on the user's screen. The user often runs `npm run dev` on port 4321, so leave that alone. If 4399 is taken by something you did not start, `serve.sh` refuses; pass another port (`$S/serve.sh start 4410`).
 
@@ -36,7 +36,7 @@ This prints the pid, the port, the HTTP code of the home page, when `dist/` was 
 Check every page (all `.html` files in `dist/`) at 1920, 1280 and 390 px wide, light theme:
 
 ```bash
-$S/check.mjs http://127.0.0.1:4399/My-Portofolio/ /tmp/verify-portfolio/evidence/$(date +%H%M%S)
+$S/check.mjs http://127.0.0.1:4399/portfolio/ /tmp/verify-portfolio/evidence/$(date +%H%M%S)
 ```
 
 Useful flags:

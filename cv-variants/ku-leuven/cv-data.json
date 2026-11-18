@@ -20,12 +20,12 @@
     },
     {
       "title": "Event Chatbot voor XPO Group",
-      "url": "https://snaetwarre.github.io/My-Portofolio/work/xpo-chatbot.html",
+      "url": "https://snaetwarre.github.io/portfolio/work/xpo-chatbot.html",
       "description": "Werkte mee aan een RAG-toepassing voor een externe klant met Azure OpenAI, Cosmos DB, .NET, Next.js en Python-ingestie."
     },
     {
       "title": "Azure ML Lifecycle",
-      "url": "https://snaetwarre.github.io/My-Portofolio/work/azure-mlops.html",
+      "url": "https://snaetwarre.github.io/portfolio/work/azure-mlops.html",
       "description": "Bouwde cloud-datavoorbereiding, TensorFlow-training, modelregistratie, MLflow-tracking, FastAPI-serving, Docker, Kubernetes-manifests en GitHub Actions."
     }
   ],

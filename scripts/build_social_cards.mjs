@@ -124,7 +124,7 @@ function renderCard(card) {
   ${title}
   ${detail}
   <text x="96" y="538" fill="${ink}" font-family="${sans}" font-size="44" font-weight="600">w/</text>
-  <text x="1104" y="534" fill="${muted}" font-family="${mono}" font-size="22" text-anchor="end">snaetwarre.github.io/My-Portofolio</text>
+  <text x="1104" y="534" fill="${muted}" font-family="${mono}" font-size="22" text-anchor="end">snaetwarre.github.io/portfolio</text>
 </svg>`;
 }
 

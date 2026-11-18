@@ -25,7 +25,7 @@
     },
     {
       "title": "Azure ML Lifecycle",
-      "url": "https://snaetwarre.github.io/My-Portofolio/work/azure-mlops.html",
+      "url": "https://snaetwarre.github.io/portfolio/work/azure-mlops.html",
       "description": "Implemented data preparation, cloud training, model registration, MLflow tracking, FastAPI serving, Docker, Kubernetes manifests, and GitHub Actions."
     }
   ],

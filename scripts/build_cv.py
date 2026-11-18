@@ -166,7 +166,7 @@ def job_cv_html(data: dict, pdf_name: str) -> str:
   </head>
   <body>
     <div class="screen-toolbar" aria-label="CV actions">
-      <a href="https://snaetwarre.github.io/My-Portofolio/">← Portfolio</a>
+      <a href="https://snaetwarre.github.io/portfolio/">← Portfolio</a>
       <a href="{escape(pdf_name, quote=True)}" download>{labels["download"]}</a>
     </div>
 
@@ -180,7 +180,7 @@ def job_cv_html(data: dict, pdf_name: str) -> str:
           <span>Vilvoorde, Belgium</span>
           <a href="tel:+32474829493">+32 474 82 94 93</a>
           <a href="mailto:warresnaet@icloud.com">warresnaet@icloud.com</a>
-          <a href="https://snaetwarre.github.io/My-Portofolio/">snaetwarre.github.io/My-Portofolio</a>
+          <a href="https://snaetwarre.github.io/portfolio/">snaetwarre.github.io/portfolio</a>
           <a href="https://github.com/SnaetWarre">github.com/SnaetWarre</a>
           <a href="https://www.linkedin.com/in/warre-snaet-272354370/">linkedin.com/in/warre-snaet-272354370</a>
         </address>

@@ -15,7 +15,7 @@ const cvPage = {
 
 export default defineConfig({
   site: "https://snaetwarre.github.io",
-  base: "/My-Portofolio",
+  base: "/portfolio",
   integrations: [cvPage],
   build: {
     format: "file",

@@ -15,7 +15,7 @@
   "projects": [
     {
       "title": "Event Chatbot for XPO Group",
-      "url": "https://snaetwarre.github.io/My-Portofolio/work/xpo-chatbot.html",
+      "url": "https://snaetwarre.github.io/portfolio/work/xpo-chatbot.html",
       "description": "Contributed to a full-stack RAG system for an external client using Azure OpenAI, Cosmos DB, .NET, Next.js, and Python ingestion."
     },
     {

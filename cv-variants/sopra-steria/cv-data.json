@@ -20,7 +20,7 @@
     },
     {
       "title": "Azure ML Lifecycle",
-      "url": "https://snaetwarre.github.io/My-Portofolio/work/azure-mlops.html",
+      "url": "https://snaetwarre.github.io/portfolio/work/azure-mlops.html",
       "description": "Built reusable Azure ML pipeline components and packaged a FastAPI model service with Docker, Kubernetes manifests, MLflow, health checks, and GitHub Actions."
     },
     {

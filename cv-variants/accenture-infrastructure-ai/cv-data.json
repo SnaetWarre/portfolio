@@ -15,7 +15,7 @@
   "projects": [
     {
       "title": "Azure ML Lifecycle",
-      "url": "https://snaetwarre.github.io/My-Portofolio/work/azure-mlops.html",
+      "url": "https://snaetwarre.github.io/portfolio/work/azure-mlops.html",
       "description": "Bouwde een vierdelige Azure ML-pipeline voor datavoorbereiding, training en modelregistratie met TensorFlow, scikit-learn en MLflow; leverde FastAPI-serving, Docker, Kubernetes-manifests en GitHub Actions."
     },
     {
@@ -25,7 +25,7 @@
     },
     {
       "title": "AWS Fargate-infrastructuur met Vault",
-      "url": "https://snaetwarre.github.io/My-Portofolio/work/aws-fargate-vault.html",
+      "url": "https://snaetwarre.github.io/portfolio/work/aws-fargate-vault.html",
       "description": "Ontwierp en testte Terraform-modules voor private ECS Fargate-workloads met IAM-gebaseerde secrets, CloudWatch-observability, autoscaling, health checks en veilige deploymentcontroles."
     }
   ],
