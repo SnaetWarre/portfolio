@@ -131,6 +131,7 @@ export const portfolioStyles = stylex.create({
   introHeading: {
     fontSize: "inherit",
     fontWeight: "inherit",
+    textWrap: "balance",
   },
   paragraph: {
     margin: "1rem 0 0",
@@ -197,7 +198,7 @@ export const portfolioStyles = stylex.create({
 
   copyNotification: {
     position: "fixed",
-    left: layoutTokens.pageInset,
+    right: layoutTokens.pageInset,
     bottom: "1.5rem",
     zIndex: 20,
     maxWidth: `min(${layoutTokens.column}, calc(100% - 3rem))`,
